@@ -75,7 +75,7 @@ const ContactPage = () => {
       <section className="py-16">
         <div className="container mx-auto text-center px-4">
           <h2 className="text-3xl font-bold mb-4">Let’s Talk</h2>
-          <p className="text-gray-500 mb-8">We can't wait to meet you!</p>
+          <p className="text-gray-500 mb-8">We can&apos;t wait to meet you!</p>
           <button className="bg-[#23A6F0] text-white px-6 py-3 rounded">
             Try it free now
           </button>
