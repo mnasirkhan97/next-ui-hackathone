@@ -30,10 +30,7 @@ export default function LightNavbar() {
             >
               About
             </Link>
-            <Link
-              href="/blog"
-              className="hover:text-gray-600 flex items-center"
-            >
+            <Link href="/#" className="hover:text-gray-600 flex items-center">
               Blog
             </Link>
             <Link
@@ -42,10 +39,7 @@ export default function LightNavbar() {
             >
               Contact
             </Link>
-            <Link
-              href="/pages"
-              className="hover:text-gray-600 flex items-center"
-            >
+            <Link href="/#" className="hover:text-gray-600 flex items-center">
               Pages
             </Link>
           </div>
@@ -66,13 +60,13 @@ export default function LightNavbar() {
 
           {/* Icons */}
           <div className="flex items-center space-x-4">
-            <Link href="/search" className="hover:text-gray-600">
+            <Link href="/#" className="hover:text-gray-600">
               <FaSearch />
             </Link>
-            <Link href="/cart" className="hover:text-gray-600">
+            <Link href="/#" className="hover:text-gray-600">
               <FaShoppingCart />
             </Link>
-            <Link href="/wishlist" className="hover:text-gray-600">
+            <Link href="/#" className="hover:text-gray-600">
               <FaHeart />
             </Link>
           </div>
