@@ -39,8 +39,11 @@ export default function LightNavbar() {
             >
               Contact
             </Link>
-            <Link href="/#" className="hover:text-gray-600 flex items-center">
-              Pages
+            <Link
+              href="/pricing"
+              className="hover:text-gray-600 flex items-center"
+            >
+              Pricing
             </Link>
           </div>
         </div>
